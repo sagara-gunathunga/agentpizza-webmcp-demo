@@ -1,0 +1,41 @@
+# Dependencies
+**/node_modules/
+
+# Next.js build and deployment output
+**/.next/
+**/out/
+**/.vercel/
+**/.turbo/
+
+# TypeScript build cache
+**/*.tsbuildinfo
+
+# Local environment variables and authentication secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and test output
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/coverage/
+
+# Local certificates and keys
+**/*.pem
+**/*.key
+**/*.p12
+
+# Editor and operating-system files
+**/.DS_Store
+**/.idea/
+**/.vscode/
+**/*.swp
+
+# Local ChatGPT/Codex project material—not part of AgentPizza
+/sources/
+**/AGENTS.md
+**/.agents/
+**/.codex/
